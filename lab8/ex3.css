@@ -1,0 +1,27 @@
+body
+{
+    background-image: url(background.png); background-size: contain;
+}
+
+div.basic
+{
+    font-size: medium;
+    text-align: center;
+}
+
+h1
+{
+    text-align: center;
+    color: red;
+}
+
+#bio
+{
+    color: red;
+    display: table;
+}
+
+a:hover
+{
+background-color: red
+}

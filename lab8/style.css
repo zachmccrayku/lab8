@@ -1,0 +1,30 @@
+table
+{
+    background-color: #808080;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #FFFFFF;
+}
+
+th
+{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #FFFFFF;
+    padding: 2px 2px 2px 2px;
+    width: 50%
+}
+
+td
+{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #FFFFFF;
+    padding: 2px 2px 2px 2px;
+    width: 50%
+}
+
+body
+{
+    background-color: grey;
+}
