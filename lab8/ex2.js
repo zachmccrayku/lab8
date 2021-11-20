@@ -1,6 +1,6 @@
-var images = ["img1.jpg", "img2.jpg","img3.jpg","img4.jpg","img5.jpg"];
-var imageIndex = 0;
-var imageLength = images.length - 1;
+let images = ["\img1.jpg","\img2.jpg","\img3.jpg","\img4.jpg","\img5.jpg"];
+let imageIndex = 0;
+let imageLength = images.length - 1;
 
 function getImage(n)
 {
@@ -15,4 +15,5 @@ function getImage(n)
     }
 
     document.getElementById("slides").src = images[imageIndex];
+    document.title = "Slideshow [" + (imageIndex + 1) + "]";
 }
